@@ -1,0 +1,40 @@
+.productsList {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.productListText {
+  width: 65%;
+}
+
+.productListTitle {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.productListDescription {
+  margin: 20px 0px;
+}
+
+.productListList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .productsList {
+    padding: 10px;
+  }
+  .productListText {
+    width: 100%;
+  }
+  .productListTitle {
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
